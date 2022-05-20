@@ -1,1 +1,4 @@
-
+nama = "Nufus Aulia"
+Umur_ = 40/2
+Gender = "Female"
+print("Nama:",nama, "\nUmur:",Umur_,"\nGender:",Gender)
