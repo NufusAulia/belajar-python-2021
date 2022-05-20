@@ -2,3 +2,51 @@ nama = "Nufus Aulia"
 Umur_ = 40/2
 Gender = "Female"
 print("Nama:",nama, "\nUmur:",Umur_,"\nGender:",Gender)
+
+# Halo
+a= input("Halo ,Nama Kamu Siapa?")
+print(a)
+
+#Luas Ruangan
+P= 5 
+L= 10
+A=P*L
+print(A,"meter")
+
+#Jumlah dari n integer positif pertama
+n=10
+sum=(n)*(n+1)/2
+print(sum)
+
+#satuan Tinggi
+Inch = 12
+Cm=2.54
+T_feet= 2.45 
+ST_dalam_Inch=T_feet*Inch
+ST2_dalam_Centimeter=T_feet*Cm
+
+print("ST_dalam_Inch:",ST_dalam_Inch,"Inch")
+print("ST2_dalam_Centimeter:",ST2_dalam_Centimeter,"Centimeter")
+
+#Satuan Jarak
+Inch =12
+Yard = 0.333
+Mil = 0.00018939
+J_feet= 234
+J1= J_feet*Inch
+J2= J_feet*Yard
+J3= J_feet*Mil
+
+print("J dalam Inch: ",J1,"\nJ dalam Yard:",J2,"\nJ dalam Mil:",J3)
+
+#Luas Segitiga
+a=12
+t=25
+A=(a*t)/2
+print(A)
+
+#Body Mass Index
+Weight=45
+Height=156
+BMI=Weight/(Height*Height)
+print("BMI kamu adalah:",BMI)
