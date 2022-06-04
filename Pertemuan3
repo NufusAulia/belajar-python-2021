@@ -1,0 +1,72 @@
+nilai = 19
+if (nilai==19):
+    print("19 adalah bilangan ganjil")
+    
+else:
+    print("Lainnya")
+    
+sisi=4
+if(sisi==3):
+    print("Itu adalah bangun datar segitiga")
+elif(sisi==4):
+    print("Itu adalah bangun datar persegi")
+elif(sisi==5):
+    print("Itu adalah bangun datar segilima")
+elif(sisi==6):
+    print("Itu adalah bangun datar segienam")
+elif(sisi==8):
+    print("Itu adalah bangun datar segidelapan") 
+elif(sisi==10):
+    print("Itu adalah bangun datar segisepuluh")
+else:
+    print("Maaf, ilmu saya belum sampai situ")
+    
+Kekuatan_gempa=12.0
+if(Kekuatan_gempa < 2.0):
+    print("Gempa tersebut adalah gempa jenis Micro")
+elif(Kekuatan_gempa <=3.0):
+    print("Gempa tersebut adalah gempa jenis Very minor")
+elif(Kekuatan_gempa<=4.0):
+    print("Gempa tersebut adalah gempa jenis Minor")
+elif(Kekuatan_gempa<=5.0):
+    print("Gempa tersebut adalah gempa jenis Light")
+elif(Kekuatan_gempa <=6.0):
+    print("Gempa tersebut adalah gempa jenis Moderate")
+elif(Kekuatan_gempa<=7.0):
+    print("Gempa tersebut adalah gempa jenis Strong")
+elif(Kekuatan_gempa<=8.0):
+    print("Gempa tersebut adalah gempa jenis Major")
+elif(Kekuatan_gempa<=10.0):
+    print("Gempa tersebut adalah gempa jenis Great")
+else:
+    print("Gempa tersebut adalah gempa jenis Meteoric")
+    
+Panjang_gelombang_cahaya=550
+if(Panjang_gelombang_cahaya<450):
+    print("Spektrum yang terlihat adalah Violet")
+elif(Panjang_gelombang_cahaya<495):
+    print("Spektrum yang terlihat adalah Blue")
+elif(Panjang_gelombang_cahaya < 570):
+    print("Spektrum yang terlihat adalah Green") 
+elif(Panjang_gelombang_cahaya < 590):
+    print("Spektrum yang terlihat adalah Yellow")
+elif(Panjang_gelombang_cahaya < 620):
+    print("Spektrum yang terlihat adalah Orange")
+elif(Panjang_gelombang_cahaya <=750):
+    print("Spektrum yang terlihat adalah Red")
+else:
+    print("Input kamu di luar spektrum yang diketahui")
+    
+tahun = 2020
+
+if (tahun % 4) == 0:
+    if (tahun % 100) == 0:
+        if (tahun % 400) == 0:
+            print("Tahun Kabisat")
+        else:
+            print("Bukan Tahun Kabisat")
+    else:
+        print("Tahun Kabisat") 
+else:
+    print( "Bukan Tahun Kabisat")
+    
