@@ -1,0 +1,5 @@
+a=[5,8,4,16,6]
+sorted(a)
+
+a.sort(reverse=True)
+a
