@@ -1,0 +1,11 @@
+#main file D
+import pandas as pd
+#import data dari main file 
+Data=pd.read_csv("D:/bestsellers_with_categories_2022_03_27.csv")
+Data.head(25) #menampilkan 25 data teratas
+
+x=Data.iloc[:,1].values
+#membuat fungsi cetak
+def cetak(x):
+    print(x)
+cetak(x)    
